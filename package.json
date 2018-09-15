@@ -1,0 +1,27 @@
+{
+  "name": "mongoscraper_jlm",
+  "version": "1.0.0",
+  "description": "This application is for Week 18 Homework Assignment. This application is a news website scraper",
+  "main": "server.js",
+  "scripts": {
+    "test": "server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fysics7/MongoScraper_JLM.git"
+  },
+  "author": "Jeffrey Mills",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fysics7/MongoScraper_JLM/issues"
+  },
+  "homepage": "https://github.com/Fysics7/MongoScraper_JLM#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^5.2.14",
+    "request": "^2.88.0"
+  }
+}
