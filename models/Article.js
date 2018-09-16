@@ -1,5 +1,7 @@
 var mongoose = require("mongoose");
 
+var db = require("../config/connection");
+
 var Schema = mongoose.Schema;
 
 var ArticleSchema = new Schema({
@@ -7,7 +9,8 @@ var ArticleSchema = new Schema({
   title: {
     type: String,
     required: true,
-    unique: true
+    unique: true,
+    dropDups: true
   },
 
   link: {
