@@ -4,7 +4,7 @@
   "description": "This application is for Week 18 Homework Assignment. This application is a news website scraper",
   "main": "server.js",
   "scripts": {
-    "test": "server.js"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
